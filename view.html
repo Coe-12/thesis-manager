@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+  <body>
+  	<h1>Student Information</h1>
+      Name: {{student.first_name}} <br>
+      Last Name: {{student.last_name}}<br>
+      Age: {{student.age}} <br>
+      <a href='/student/edit/{{student.key.id()}}'>edit</a> <br>
+      <a href='/student/delete/{{student.key.id()}}'>delete</a>
+  </body>
+</html>
